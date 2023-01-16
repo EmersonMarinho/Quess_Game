@@ -39,6 +39,8 @@ p {
 
 form {
   margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -49,4 +51,23 @@ main {
   width: min(42.8rem, 90%);
   margin-top: -12rem;
   text-align: center;
+}
+
+input,
+button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #dce2e9;
+  width: 8rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+
+button {
+  background-color: #7879f1;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0 0.4rem 0.4rem 0;
 }
